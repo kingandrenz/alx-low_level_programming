@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a function that prints the alphabeth in lowercase
+ * main - Entry point
  * @n: the alphabeth to be checked
  *
  * return: Always 0 (success)
