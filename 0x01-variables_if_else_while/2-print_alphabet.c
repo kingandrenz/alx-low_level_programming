@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
- *main - Entry point
- *@n: the alphabeth to be checked
- *
- *return: Always 0 (success)
- */
+* main - print the alphabeth in lowercase
+*
+* Return: Always 0 (success).
+*/
+
 int main(void)
 {
 	char n;
@@ -13,7 +14,9 @@ int main(void)
 	{
 		putchar(n);
 	}
+
 	putchar('\n');
 
-return (0);
+	return (0);
+
 }
