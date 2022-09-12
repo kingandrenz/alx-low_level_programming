@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combination of two digits.
- *
- * Return: Always return 0 .
- */
+* main - prints all possible different combination of two digits.
+*
+* Return: Always return 0 .
+*/
 
 int main(void)
 {
-	int num;
-	int num1;
+	int num, num1;
 
-	for (num = 0; num <= 10; num++)
+	for (num = 0; num < 10; num++)
 	{
 		{
 			for (num1 = 0; num1 < 10; num1++)
