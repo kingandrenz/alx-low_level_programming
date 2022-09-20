@@ -10,8 +10,8 @@ int main(void)
 	int a;
 	int b;
 
-	a = 1024;
-	b = -409;
+	a = 98;
+	b = 42;
 	_putchar("a=%d, b=%d\n", a, b);
 	swap_int(&a, &b);
 	_putchar("a=%d, b=%d\n", a, b);
