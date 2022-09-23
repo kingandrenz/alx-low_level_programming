@@ -9,7 +9,7 @@
 char *leet(char *)
 {
 	int i;
-	char *s = *;
+	char *s = &*;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
