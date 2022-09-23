@@ -6,9 +6,10 @@
  * Return: encoded string `s`
  */
 
-char *leet(char *s)
+char *leet(char *)
 {
 	int i;
+	char *s = *;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
