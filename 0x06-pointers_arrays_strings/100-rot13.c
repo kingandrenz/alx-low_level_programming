@@ -9,17 +9,16 @@
 char *rot13(char *)
 {
 	int i;
-	char *s = *;
 	char storeh[] = "NOPQRSTUVWXYZABCDEFGHIJKLM";
 	char storel[] = "nopqrstuvwxyzabcdefghijklm";
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; *[i] != '\0'; i++)
 	{
-		if ((s[i] > 64 && s[i] < 91) || (s[i] > 96 && s[i] < 123))
+		if ((*[i] > 64 && *[i] < 91) || (*[i] > 96 && *[i] < 123))
 		{
-			s[i] = (s[i] - 65 > 25) ?
-				storel[s[i] - 97] : storeh[s[i] - 65];
+			*[i] = (*[i] - 65 > 25) ?
+				storel[*[i] - 97] : storeh[*[i] - 65];
 		}
 	}
-	return (s);
+	return (*);
 }
