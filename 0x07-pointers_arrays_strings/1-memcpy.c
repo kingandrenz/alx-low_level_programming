@@ -7,16 +7,16 @@
  * Return: NULL if char not found, or pointer to first occurrence of char `c`
  */
 
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	while (*s != '\0')
+	while (*dest != '\0')
 	{
-		if (*s == c)
-			return (s);
-		else if (*(s + 1) == c)
-			return (s + 1);
-		s++;
+		if (*dest == *src)
+			return (dest);
+		else if (*(dest + 1) == n)
+			return (dest + 1);
+		dest++;
 	}
 
-	return (s + 1);
+	return (dest + 1);
 }
