@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strchr - locate character in a string
@@ -9,14 +10,11 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	while (*dest != '\0')
-	{
-		if (*dest == *src)
-			return (dest);
-		else if (*(dest + 1) == n)
-			return (dest + 1);
-		dest++;
-	}
+	char *dest1 = dest;
+	char *src1 = src;
 
-	return (dest + 1);
+	for (int i = 0; i < n; i++)
+		dest[i] = src[i];
+
+	return (dest);
 }
