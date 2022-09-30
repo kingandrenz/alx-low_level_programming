@@ -16,4 +16,8 @@ int _sqrt_recursion(int n);
 
 int is_prime_number(int n);
 
+int hai(int n, int d);
+
+int _sqrt(int x, int i);
+
 
