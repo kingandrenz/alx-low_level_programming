@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strchr - locate character in a string
- * @s: char array string
- * @c: char to look for
+ * _memcpy - locate character in a string
+ * @dest: char array string
+ * @src: char to look for
+ * @n: the integer
  * Return: NULL if char not found, or pointer to first occurrence of char `c`
  */
 
