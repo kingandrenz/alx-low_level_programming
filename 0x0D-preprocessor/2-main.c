@@ -1,5 +1,7 @@
 #include <stdio.h>
-#define _FILE_ 2-main.c
+#ifndef 2_MAIN_C
+#define 2_MAIN_C
+#define _FILE_ "2-main.c"
 /**
  * main - print the the name of the file it compiled from
  *
