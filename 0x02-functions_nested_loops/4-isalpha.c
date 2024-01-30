@@ -3,7 +3,7 @@
 /**
  * _isalpha - check the code for Holberton School students.
  *@c: letter being tested
- * Return: Always 0
+ * Return: Always 1 if True and 0 if False
  */
 
 int _isalpha(int c)
@@ -12,3 +12,4 @@ int _isalpha(int c)
 		return (1);
 	else
 		return (0);
+}
