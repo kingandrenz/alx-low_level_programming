@@ -8,14 +8,18 @@
  */
 void print_number(int n)
 {
+	int temp;
+
 	if (n == INT_MIN)
 	{
 		_putchar('-');
+		temp = -(n / 10);
 
-		n = -(n / 10);
-		_putchar('0' + (n % 10));
+		_putchar('0' + (temp % 10));
+		n = temp;
 	}
-	else if (n < 0)
+
+	if (n < 0)
 	{
 		_putchar('-');
 		n = -n;
