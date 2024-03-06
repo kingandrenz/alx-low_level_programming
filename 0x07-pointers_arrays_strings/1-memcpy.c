@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strchr - locate character in a string
+ * _memcpy - locate character in a string
  * @dest: memory location to be copied to
  * @src: memory location to be copied from
  * Return: pointer to dest
